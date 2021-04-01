@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Home"
+        android:id="@+id/homeId"
+        android:icon="@drawable/home_icon"/>
+    <item android:title="বাংলা বর্ণ / English Alphabet">
+        <menu>
+            <item android:id="@+id/banglaId"
+                android:title="বাংলা বর্ণ"
+                android:icon="@drawable/bangla_icon"/>
+            <item android:id="@+id/englishId"
+                android:title="English Alphabet"
+                android:icon="@drawable/english_icon"/>
+        </menu>
+
+    </item>
+    <item android:title="বাংলা কবিতা / English Poem">
+        <menu>
+            <item android:id="@+id/kobitaId"
+                android:title="বাংলা কবিতা"
+                android:icon="@drawable/bangla_poem_icon"/>
+            <item android:id="@+id/poemId"
+                android:title="English Poem"
+                android:icon="@drawable/english_poem_icon"/>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/feedbackId"
+                android:title="Feedback"
+                android:icon="@drawable/feedback_icon"/>
+            <item android:id="@+id/contactId"
+                android:title="Contact us"
+                android:icon="@drawable/contact_icon"/>
+
+        </menu>
+    </item>
+    <item android:title="Exit"
+        android:id="@+id/exictId"
+        android:icon="@drawable/exit_icon"/>
+</menu>

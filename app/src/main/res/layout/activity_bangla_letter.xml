@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BanglaLetter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:background="@color/teal_700">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:backgroundTint="@color/teal_200"
+            android:text="স্বরবর্ণ"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:onClick="bsletter"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/white"
+            android:text="ব্যঞ্জনবর্ণ"
+            android:textStyle="bold"
+            android:textSize="@dimen/_17sdp"
+            android:onClick="bbletter"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:backgroundTint="@color/teal_200"
+            android:text="সংখ্যা"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:onClick="bnumber"
+            />
+
+    </LinearLayout>
+    
+    <FrameLayout android:id="@+id/frmae"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/bsletter"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                />
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/bbletter"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                />
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/bnumber"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

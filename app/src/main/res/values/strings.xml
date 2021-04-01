@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">বর্ণ পরিচিতি</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">
+        বর্তমান সময়ে আমরা সবসময় মোবাইল ফোন নিয়ে ব্যস্ত থাকি। আজকাল বাচ্চারা মোবাইল ফোনে বিভিন্ন গেইম অথবা মোবাইল আসক্তি হয়ে পড়ছে। ঠিক এমনটা ভেবেই তারা যেন আনন্দের সাথে মোবাইল ফোনের মাধ্যমে শিক্ষাগ্রহণ করতে পারে, তারই ক্ষুদ্র প্রয়াসে আমাদের বর্ণ পরিচিতি মোবাইল আপ্লিকেশন।\n\n
+        At present we are always busy with mobile phones. Nowadays children are becoming addicted to various games or on mobile phones. Just thinking that they can happily learn through mobile phones, in a small effort, our caste acquaintance mobile application.
+    </string>
+    <string name="bk">
+        আমার প্রিয় বাংলাদেশ\n
+        আমি তোমার ভালবাসি।\n
+        গানের দেশ, ধানের দেশ\n
+        আমার প্রাণের দেশ\n
+        আমি তোমায় ভালবাসি।\n
+        ও আমার প্রিয় জন্মভূমি\n
+        আমি তোমায় ভালবাসি।\n
+        ভোরে পাখি ডাকা দেশ\n
+        স্নিগ্ধ শ্যামল বাংলাদেশ\n
+        আমি তোমায় ভালবাসি।\n
+        কবির দেশ, বাউলের দেশ\n
+        আমার প্রাণের বাংলাদেশ\n
+        আমি তোমায় ভালবাসি।\n\n
+    </string>
+    <string name="ep">
+        Twinkle, twinkle, little star,\n
+        How I wonder what you are.\n
+        Up above the world so high,\n
+        Like a diamond in the sky.\n
+        Twinkle, twinkle, little star,\n
+        How I wonder what you are!\n\n
+
+        When the blazing sun is gone,\n
+        When he nothing shines upon,\n
+        Then you show your little light,\n
+        Twinkle, twinkle, all the night.\n
+        Twinkle, twinkle, little star,\n
+        How I wonder what you are!\n\n
+    </string>
+
+    <string-array name="nameCapital">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>
